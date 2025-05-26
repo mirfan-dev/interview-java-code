@@ -1,3 +1,10 @@
+
+/*
+
+        input : [1,2,4,5]
+        output: 3
+ */
+
 public class FindMissingNumberInArray {
 
     public static void main(String[] args) {

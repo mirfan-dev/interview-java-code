@@ -1,6 +1,11 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*
+        input: [7,8,9,10,11], target=9
+        output: 2
+ */
+
 public class BinarySearch {
 
 
@@ -23,7 +28,7 @@ public class BinarySearch {
             int value = search(arr, target);
 
             if (value != -1) {
-                System.out.println("Element is found at index: " + value);
+                System.out.println("Element is "+arr[value]+ " at index: " + value);
             } else {
                 System.out.println("Element not found in the array.");
             }
