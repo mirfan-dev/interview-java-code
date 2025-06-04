@@ -1,6 +1,11 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
+/*
+        input: abbccc
+        output: a1b2c3
+ */
+
 public class CompressString {
 
     public static void main(String[] args) {
